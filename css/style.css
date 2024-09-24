@@ -9,3 +9,59 @@ body {
   height: 100%;
   width: 100%;
 }
+
+/* Fonts */
+@font-face {
+  font-family: Futura;
+  src: url(../assets/fonts/Futura-Bold.woff2);
+}
+
+@font-face {
+  font-family: ABCSocialMono;
+  src: url(../assets/fonts/ABCSocialMono-Regular.woff2);
+}
+
+@font-face {
+  font-family: HelveticaNowText;
+  src: url(../assets/fonts/HelveticaNowText-Regular.woff2);
+}
+
+/* Hero Section */
+
+#hero {
+  min-height: 100vh;
+  background: aqua;
+  position: relative;
+  width: 100%;
+  padding: 0 1vw;
+  padding-top: 20vh;
+}
+
+#hero h1 {
+  font-size: 15.8vw;
+  font-family: Futura;
+  text-transform: uppercase;
+  line-height: 14vw;
+  letter-spacing: -8px;
+  font-weight: 500;
+}
+
+#video-container {
+  height: 100vh;
+  background: grey;
+  margin-top: 1vw;
+  width: 100%;
+  position: relative;
+}
+
+#video-container video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#video-container #play{
+  
+}
+
+/* Hero Section Ends */

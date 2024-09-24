@@ -2,7 +2,7 @@
 
 Built by [vijethx](https://github.com/vijethx)
 
-Live: 
+Live: https://vijethx.github.io/TwoGoodCo-clone/
 
 ## Tech Stack
 
